@@ -1,12 +1,17 @@
 {
     "name": "StringX",
-    "description": "Telegram bot for generating API credentials and session strings (Pyrogram & Telethon).",
+    "description": "Telegram bot for generating API credentials and session strings (Pyrogram & Telethon). Strictly for educational purposes.",
     "keywords": [
-        "telegram",
-        "session",
+        "telegram-bot",
         "pyrogram",
         "telethon",
-        "api-credentials"
+        "session-generator",
+        "api-id",
+        "api-hash",
+        "string-session",
+        "hydrogram",
+        "pyrofork",
+        "kurigram"
     ],
     "repository": "https://github.com/KunalG932/StringX",
     "stack": "heroku-24",
