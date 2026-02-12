@@ -2,6 +2,11 @@
   <img src="https://telegra.ph/file/1049e78ce9d6f67cfcdf2-faf067ca2ed756eb61.jpg" alt="StringX" width="500">
   <h1>StringX</h1>
   <p>A modular Telegram Bot for obtaining API credentials and generating session strings for Pyrogram and Telethon.</p>
+  <p align="center">
+    <a href="https://t.me/Awakeners_Bots">
+      <img src="https://img.shields.io/badge/Update%20Channel-Join-blue?style=for-the-badge&logo=telegram" alt="Update Channel">
+    </a>
+  </p>
 </div>
 
 ## Features
@@ -34,3 +39,10 @@
 Click the button below to deploy this bot to Heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KunalG932/StringX)
+
+## ⚠️ Disclaimer
+- This project is strictly for **educational purposes only**.
+- The developers and contributors are **not responsible** for any misuse of this tool.
+- Security and ethical use are the responsibility of the user. Misusing this bot to violate Telegram's Terms of Service may lead to account bans.
+- Use it at your own risk.
+

@@ -16,6 +16,8 @@ except ImportError:
 
 PURL = "https://graph.org/Privacy-Policy---StringX-02-11-3"
 IMG = "https://telegra.ph/file/1049e78ce9d6f67cfcdf2-faf067ca2ed756eb61.jpg"
+CURL = "https://t.me/Awakeners_Bots"
+
 
 PTXT = (
     "<b>Privacy Policy & Terms of Use</b>\n\n"
@@ -28,8 +30,9 @@ PTXT = (
     "  - API ID / Hash, session strings\n"
     "  - 2FA passwords\n\n"
     "<b>Important:</b>\n"
+    "  - This bot is for educational purposes only.\n"
     "  - We don't share data with third parties\n"
-    "  - We are not responsible for account bans or hacks\n"
+    "  - We are not responsible for account bans or misuse\n"
     "  - Credentials are processed in memory only\n"
     "  - You are responsible for keeping your data safe\n\n"
     "Read the full policy using the button below."
@@ -53,7 +56,10 @@ def m_kb(url: str = None) -> InlineKeyboardMarkup:
         r.append([InlineKeyboardButton("Privacy Policy", url=url)])
     else:
         r.append([InlineKeyboardButton("Privacy Policy", callback_data="privacy", **_s(BS.DEFAULT if BS else None))])
-    r.append([InlineKeyboardButton("Close", callback_data="close", **_s(BS.DANGER if BS else None))])
+    r.append([
+        InlineKeyboardButton("Update Channel", url=CURL),
+        InlineKeyboardButton("Close", callback_data="close", **_s(BS.DANGER if BS else None))
+    ])
     return InlineKeyboardMarkup(r)
 
 def t_kb(url: str = None) -> InlineKeyboardMarkup:
